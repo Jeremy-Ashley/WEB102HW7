@@ -1,0 +1,139 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b132b;
+    color: white;
+}
+
+
+/* Main page container */
+.page {
+    min-height: 100vh;
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* Headers */
+h1 {
+    color: #2917f0;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+
+/* Cards for crewmates */
+.card {
+    background: #2b52c9;
+    width: 350px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 20px;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #566260;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+/* Buttons */
+button {
+    background: #2d423f;
+    color: #000000;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 12px 25px;
+    margin: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+button:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+}
+
+
+/* Delete button */
+.delete {
+    background: #ef4444;
+    color: white;
+}
+
+
+.delete:hover {
+    background: #dc2626;
+}
+
+
+/* Forms */
+form {
+    background: #1c2541;
+
+    width: 350px;
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+input,
+select {
+
+    width: 90%;
+
+    padding: 12px;
+
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 16px;
+}
+
+
+/* Detail page text */
+p {
+    font-size: 18px;
+}
